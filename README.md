@@ -6,7 +6,8 @@
 Ballet is a reinterpretation of the classic Spencerian script style with a few whimsical twists in two different versions: Ballet aligned and crooked, both with Latin GF Plus character set (+630 characters/+800 glyphs). Typeface design by Maximiliano Sproviero, typeface development by Eduardo Tunni. 
 
 
-![Sample of Ballet.](Ballet.pdf "Ballet")
+![Sample of Ballet.](Ballet-01.png "Ballet")
+![Sample of Ballet.](Ballet-02.png "Ballet")
 
 #### Ballet contains:
 
