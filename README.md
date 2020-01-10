@@ -11,8 +11,8 @@ Ballet is a reinterpretation of the classic Spencerian script style with a few w
 
 #### Ballet contains:
 
-* BalletClassique-Optical
-* BalletClassique-Regular
+* Ballet-Display
+* Ballet-Text
 
 To contribute to the project contact [Omnibus Type](http://omnibus-type.com/).
 
