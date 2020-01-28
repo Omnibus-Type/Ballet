@@ -1,5 +1,8 @@
 {
-.appVersion = "1287";
+.appVersion = "1283";
+DisplayStrings = (
+"/zeroinferior"
+);
 classes = (
 {
 code = "m n p r v y";
@@ -79,7 +82,7 @@ name = description;
 value = "Ballet is a reinterpretation of the classic Spencerian script style with a few whimsical twists in two different versions: Ballet aligned and crooked, both with Latin GF Plus character set (+630 characters/+800 glyphs). Typeface design by Maximiliano Sproviero, typeface development by Eduardo Tunni.";
 }
 );
-date = "2020-01-27 23:27:50 +0000";
+date = "2020-01-09 23:50:01 +0000";
 designer = "Maximiliano R. Sproviero";
 designerURL = "http://www.omnibus-type.com/";
 familyName = Ballet;
@@ -88615,14 +88618,6 @@ braceleft = 4;
 };
 };
 "9A3DD581-AC5F-4F37-8699-BDEB45404FFD" = {
-J = {
-a = 30;
-e = 30;
-o = 30;
-};
-L = {
-r = -36;
-};
 six = {
 seven = -24;
 };
