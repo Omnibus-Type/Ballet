@@ -1,5 +1,5 @@
 {
-.appVersion = "1287";
+.appVersion = "1290";
 classes = (
 {
 code = "m n p r v y";
@@ -22,7 +22,7 @@ disabled = 1;
 name = puedenybajan;
 }
 );
-copyright = "Copyright (c) 2020 by Maximiliano R. Sproviero. All rights reserved.";
+copyright = "Copyright 2020 The Ballet Project Authors (https://github.com/Omnibus-Type/Ballet)";
 customParameters = (
 {
 name = Axes;
@@ -36,6 +36,10 @@ Tag = opsz;
 {
 name = trademark;
 value = "Ballet is a trademark of Omnibus-Type.";
+},
+{
+name = description;
+value = "Ballet is a reinterpretation of the classic Spencerian script style with a few whimsical twists in two different versions: Ballet aligned and crooked, both with Latin GF Plus character set (+630 characters/+800 glyphs). Typeface design by Maximiliano Sproviero, typeface development by Eduardo Tunni.";
 },
 {
 name = vendorID;
@@ -75,8 +79,8 @@ name = "Variable Font Family Name";
 value = Ballet;
 },
 {
-name = description;
-value = "Ballet is a reinterpretation of the classic Spencerian script style with a few whimsical twists in two different versions: Ballet aligned and crooked, both with Latin GF Plus character set (+630 characters/+800 glyphs). Typeface design by Maximiliano Sproviero, typeface development by Eduardo Tunni.";
+name = "Variable Font Origin";
+value = UUID0;
 }
 );
 date = "2020-01-27 23:27:50 +0000";
@@ -88627,6 +88631,9 @@ braceleft = 4;
 manufacturer = "http://www.omnibus-type.com/";
 manufacturerURL = "http://www.omnibus-type.com/";
 unitsPerEm = 1000;
+userData = {
+LWPluginVersion = "1392";
+};
 versionMajor = 1;
 versionMinor = 0;
 }
