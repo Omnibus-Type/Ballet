@@ -1,5 +1,5 @@
 {
-.appVersion = "1290";
+.appVersion = "1346";
 classes = (
 {
 code = "m n p r v y";
@@ -25,15 +25,6 @@ name = puedenybajan;
 copyright = "Copyright 2020 The Ballet Project Authors (https://github.com/Omnibus-Type/Ballet)";
 customParameters = (
 {
-name = Axes;
-value = (
-{
-Name = "Optical size";
-Tag = opsz;
-}
-);
-},
-{
 name = trademark;
 value = "Ballet is a trademark of Omnibus-Type.";
 },
@@ -52,11 +43,11 @@ value = (
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = "Disable Last Change";
@@ -71,16 +62,17 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Variable Font File Name";
-value = Ballet;
-},
+name = Axes;
+value = (
 {
-name = "Variable Font Family Name";
-value = Ballet;
+Name = "Optical size";
+Tag = opsz;
+}
+);
 },
 {
 name = "Variable Font Origin";
-value = UUID0;
+value = "9A3DD581-AC5F-4F37-8699-BDEB45404FFD";
 }
 );
 date = "2020-01-27 23:27:50 +0000";
@@ -645,15 +637,14 @@ alignmentZones = (
 "{874, 16}",
 "{842, 15}",
 "{772, 0}",
+"{316, 16}",
 "{296, 6}",
-"{243, 16}",
 "{0, 0}",
 "{0, -15}",
 "{-497, -27}"
 );
 ascender = 874;
-capHeight = 1205;
-custom = Display;
+capHeight = 1209;
 customParameters = (
 {
 name = typoAscender;
@@ -665,7 +656,7 @@ value = 1130;
 },
 {
 name = winAscent;
-value = 1130;
+value = 1160;
 },
 {
 name = hheaDescender;
@@ -681,7 +672,100 @@ value = -770;
 },
 {
 name = winDescent;
-value = 770;
+value = 920;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+descender = -511;
+guideLines = (
+{
+locked = 1;
+position = "{10, 169}";
+},
+{
+angle = 48.1798;
+locked = 1;
+position = "{0, 130}";
+},
+{
+position = "{732, 897}";
+},
+{
+position = "{-436, -642}";
+},
+{
+position = "{-312, -494}";
+},
+{
+position = "{270, 256}";
+showMeasurement = 1;
+},
+{
+position = "{287, 468}";
+showMeasurement = 1;
+},
+{
+angle = 48.1798;
+position = "{-27, 330}";
+}
+);
+id = "9A3DD581-AC5F-4F37-8699-BDEB45404FFD";
+userData = {
+GSOffsetHorizontal = 2;
+GSOffsetKeepCompatible = 1;
+GSOffsetPosition = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 10;
+};
+weightValue = 16;
+widthValue = 0;
+xHeight = 339;
+},
+{
+alignmentZones = (
+"{874, 16}",
+"{842, 15}",
+"{772, 0}",
+"{296, 6}",
+"{243, 16}",
+"{0, 0}",
+"{0, -15}",
+"{-497, -27}"
+);
+ascender = 874;
+capHeight = 1205;
+custom = "72pt";
+customParameters = (
+{
+name = typoAscender;
+value = 1130;
+},
+{
+name = hheaAscender;
+value = 1130;
+},
+{
+name = winAscent;
+value = 1160;
+},
+{
+name = hheaDescender;
+value = -770;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoDescender;
+value = -770;
+},
+{
+name = winDescent;
+value = 920;
 },
 {
 name = hheaLineGap;
@@ -739,99 +823,6 @@ GSOffsetVertical = 10;
 weightValue = 72;
 widthValue = 0;
 xHeight = 261;
-},
-{
-alignmentZones = (
-"{874, 16}",
-"{842, 15}",
-"{772, 0}",
-"{316, 16}",
-"{296, 6}",
-"{0, 0}",
-"{0, -15}",
-"{-497, -27}"
-);
-ascender = 874;
-capHeight = 1209;
-custom = Text;
-customParameters = (
-{
-name = typoAscender;
-value = 1130;
-},
-{
-name = hheaAscender;
-value = 1130;
-},
-{
-name = winAscent;
-value = 1130;
-},
-{
-name = hheaDescender;
-value = -770;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = typoDescender;
-value = -770;
-},
-{
-name = winDescent;
-value = 770;
-},
-{
-name = hheaLineGap;
-value = 0;
-}
-);
-descender = -511;
-guideLines = (
-{
-locked = 1;
-position = "{10, 169}";
-},
-{
-angle = 48.1798;
-locked = 1;
-position = "{0, 130}";
-},
-{
-position = "{732, 897}";
-},
-{
-position = "{-436, -642}";
-},
-{
-position = "{-312, -494}";
-},
-{
-position = "{270, 256}";
-showMeasurement = 1;
-},
-{
-position = "{287, 468}";
-showMeasurement = 1;
-},
-{
-angle = 48.1798;
-position = "{-27, 330}";
-}
-);
-id = "9A3DD581-AC5F-4F37-8699-BDEB45404FFD";
-userData = {
-GSOffsetHorizontal = 2;
-GSOffsetKeepCompatible = 1;
-GSOffsetPosition = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 10;
-};
-weightValue = 16;
-widthValue = 0;
-xHeight = 339;
 }
 );
 glyphs = (
@@ -88523,89 +88514,30 @@ width = 600;
 );
 instances = (
 {
-customParameters = (
-{
-name = typoAscender;
-value = 1130;
-},
-{
-name = hheaAscender;
-value = 1130;
-},
-{
-name = winAscent;
-value = 1130;
-},
-{
-name = hheaDescender;
-value = -770;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = typoDescender;
-value = -770;
-},
-{
-name = winDescent;
-value = 770;
-},
-{
-name = hheaLineGap;
-value = 0;
-}
-);
 interpolationWeight = 72;
 instanceInterpolations = {
 UUID0 = 1;
 };
-name = Display;
+name = "72pt";
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 1130;
-},
-{
-name = hheaAscender;
-value = 1130;
-},
-{
-name = winAscent;
-value = 1130;
-},
-{
-name = hheaDescender;
-value = -770;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = typoDescender;
-value = -770;
-},
-{
-name = winDescent;
-value = 770;
-},
-{
-name = hheaLineGap;
-value = 0;
-}
-);
 interpolationWeight = 16;
 instanceInterpolations = {
 "9A3DD581-AC5F-4F37-8699-BDEB45404FFD" = 1;
 };
-name = Text;
+name = "16pt";
 }
 );
 kerning = {
+"9A3DD581-AC5F-4F37-8699-BDEB45404FFD" = {
+six = {
+seven = -24;
+};
+space = {
+H = 2;
+braceleft = 4;
+};
+};
 UUID0 = {
 q.ss01 = {
 r.ss01 = 0;
@@ -88618,17 +88550,8 @@ H = 2;
 braceleft = 4;
 };
 };
-"9A3DD581-AC5F-4F37-8699-BDEB45404FFD" = {
-six = {
-seven = -24;
 };
-space = {
-H = 2;
-braceleft = 4;
-};
-};
-};
-manufacturer = "http://www.omnibus-type.com/";
+manufacturer = "Omnibus-Type";
 manufacturerURL = "http://www.omnibus-type.com/";
 unitsPerEm = 1000;
 userData = {
