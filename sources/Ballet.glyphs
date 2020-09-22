@@ -15,11 +15,6 @@ name = puedenbajar;
 code = "c e i l t b o p q s v y";
 disabled = 1;
 name = nobajan;
-},
-{
-code = "c.baja e.baja i.baja l.baja t.baja";
-disabled = 1;
-name = puedenybajan;
 }
 );
 copyright = "Copyright 2020 The Ballet Project Authors (https://github.com/Omnibus-Type/Ballet)";
@@ -142,7 +137,33 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "";
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	language CRT;
+	language KAZ;
+	language TAT;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT;
+} locl_latn_2;
+";
 name = locl;
 },
 {
