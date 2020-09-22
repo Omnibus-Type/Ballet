@@ -9,18 +9,18 @@ AXES = [
         name="Optical size",
         ordering=0,
         values=[
-            dict(nominalValue=16, rangeMinValue=16, rangeMaxValue=16, name="16pt"),
-            dict(nominalValue=72, rangeMinValue=72, rangeMaxValue=72, name="72pt"),
+            dict(value=16, name="16pt"),
+            dict(value=72, name="72pt"),
         ],
     ),
-#    dict(
-#        tag="wght",
-#        name="Weight",
-#        ordering=1,
-#        values=[
-#            dict(nominalValue=400, rangeMinValue=400, rangeMaxValue=400,name="Regular", flags=0x2),
-#        ],
-#    ),
+    dict(
+        tag="wght",
+        name="Weight",
+        ordering=1,
+        values=[
+            dict(value=400, name="Regular", flag=0x2),
+        ],
+    ),
 ]
 
 def update_fvar(ttfont):
