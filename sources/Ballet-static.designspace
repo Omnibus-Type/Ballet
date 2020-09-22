@@ -22,13 +22,13 @@
 
   <instances>
 
-    <instance name="Ballet 72pt Regular" familyname="Ballet 72pt" stylename="Regular" filename="../instance_ufo/Ballet72pt-Regular.ufo" stylemapfamilyname="Ballet 72pt" stylemapstylename="regular">
+    <instance name="Ballet 72pt Regular" familyname="Ballet 72pt" stylename="Regular" filename="instance_ufo/Ballet72pt-Regular.ufo" stylemapfamilyname="Ballet 72pt" stylemapstylename="regular">
       <location>
         <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
-    <instance name="Ballet 16pt Regular" familyname="Ballet 16pt" stylename="Regular" filename="../instance_ufo/Ballet16pt-Regular.ufo" stylemapfamilyname="Ballet 16pt" stylemapstylename="regular">
+    <instance name="Ballet 16pt Regular" familyname="Ballet 16pt" stylename="Regular" filename="instance_ufo/Ballet16pt-Regular.ufo" stylemapfamilyname="Ballet 16pt" stylemapstylename="regular">
       <location>
         <dimension name="Optical size" xvalue="16"/>
       </location>
