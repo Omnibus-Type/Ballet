@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="opsz" name="Optical size" minimum="16" maximum="72" default="16"/>
+  </axes>
+
+  <sources>
+
+    <source filename="Ballet-Regular.ufo" familyname="Ballet" stylename="Regular">
+      <location>
+        <dimension name="Optical size" xvalue="16"/>
+      </location>
+    </source>
+
+    <source filename="Ballet-72pt.ufo" familyname="Ballet 72pt" stylename="Regular">
+      <location>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+
+  </sources>
+
+  <instances>
+
+    <instance name="Ballet" familyname="Ballet" stylename="Regular" filename="../instance_ufo/Ballet16pt-Regular.ufo" stylemapfamilyname="Ballet 16pt" stylemapstylename="regular">
+      <location>
+        <dimension name="Optical size" xvalue="16"/>
+      </location>
+    </instance>
+
+  </instances>
+
+</designspace>
