@@ -2,12 +2,11 @@
 set -e
 source ../env/bin/activate
 
-# Mute these lines if you don't want to regenerate UFOs
 echo ".
 MAKE UFO
 ."
 rm -rf *.ufo
-glyphs2ufo Ballet.glyphs
+glyphs2ufo Ballet.glyphs --generate-GDEF
 rm Ballet.designspace
 
 ##########################################
@@ -17,6 +16,7 @@ GENERATING VARIABLE
 ."
 rm -rf ../fonts/variable
 mkdir -p ../fonts/variable
+
 VF_PATH=../fonts/variable/Ballet[opsz].ttf
 fontmake -m Ballet-variable.designspace -o variable --output-path $VF_PATH
 
@@ -36,6 +36,8 @@ done
 rm ../fonts/variable/*gasp*
 
 python gen_stat.py $VF_PATH
+
+##########################################
 
 rm -rf instance_ufo/ *ufo
 
