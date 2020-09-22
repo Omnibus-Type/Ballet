@@ -17,7 +17,7 @@ GENERATING VARIABLE
 ."
 rm -rf ../fonts/variable
 mkdir -p ../fonts/variable
-VF_PATH=..fonts/variable/Ballet[opsz].ttf
+VF_PATH=../fonts/variable/Ballet[opsz].ttf
 fontmake -m Ballet-variable.designspace -o variable --output-path $VF_PATH
 
 ##########################################
@@ -37,7 +37,7 @@ rm ../fonts/variable/*gasp*
 
 python gen_stat.py $VF_PATH
 
-rm -rf instance_ufo/
+rm -rf instance_ufo/ *ufo
 
 echo ".
 COMPLETE!
