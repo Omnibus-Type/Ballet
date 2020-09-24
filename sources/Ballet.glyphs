@@ -1,5 +1,8 @@
 {
 .appVersion = "1346";
+DisplayStrings = (
+"Hell..../ellipsis"
+);
 classes = (
 {
 code = "m n p r v y";
@@ -69473,40 +69476,126 @@ width = 252;
 unicode = 003B;
 },
 {
-color = 10;
+color = 6;
 glyphname = ellipsis;
 layers = (
 {
-components = (
-{
-name = period;
-},
-{
-name = period;
-},
-{
-name = period;
-}
-);
 layerId = UUID0;
-width = 157;
+paths = (
+{
+closed = 1;
+nodes = (
+"177 -8 OFFCURVE",
+"233 40 OFFCURVE",
+"233 64 CURVE SMOOTH",
+"233 70 OFFCURVE",
+"229 74 OFFCURVE",
+"222 74 CURVE SMOOTH",
+"195 74 OFFCURVE",
+"140 25 OFFCURVE",
+"140 1 CURVE SMOOTH",
+"140 -5 OFFCURVE",
+"144 -8 OFFCURVE",
+"150 -8 CURVE SMOOTH"
+);
 },
 {
-components = (
-{
-name = period;
+closed = 1;
+nodes = (
+"333 -8 OFFCURVE",
+"389 40 OFFCURVE",
+"389 64 CURVE SMOOTH",
+"389 70 OFFCURVE",
+"385 74 OFFCURVE",
+"378 74 CURVE SMOOTH",
+"351 74 OFFCURVE",
+"296 25 OFFCURVE",
+"296 1 CURVE SMOOTH",
+"296 -5 OFFCURVE",
+"300 -8 OFFCURVE",
+"306 -8 CURVE SMOOTH"
+);
 },
 {
-name = period;
-},
-{
-name = period;
+closed = 1;
+nodes = (
+"21 -8 OFFCURVE",
+"77 40 OFFCURVE",
+"77 64 CURVE SMOOTH",
+"77 70 OFFCURVE",
+"73 74 OFFCURVE",
+"66 74 CURVE SMOOTH",
+"39 74 OFFCURVE",
+"-16 25 OFFCURVE",
+"-16 1 CURVE SMOOTH",
+"-16 -5 OFFCURVE",
+"-12 -8 OFFCURVE",
+"-6 -8 CURVE SMOOTH"
+);
 }
 );
+width = 469;
+},
+{
 layerId = "9A3DD581-AC5F-4F37-8699-BDEB45404FFD";
-width = 201;
+paths = (
+{
+closed = 1;
+nodes = (
+"234 -10 OFFCURVE",
+"306 52 OFFCURVE",
+"306 83 CURVE SMOOTH",
+"306 91 OFFCURVE",
+"301 96 OFFCURVE",
+"292 96 CURVE SMOOTH",
+"256 96 OFFCURVE",
+"185 33 OFFCURVE",
+"185 1 CURVE SMOOTH",
+"185 -6 OFFCURVE",
+"190 -10 OFFCURVE",
+"198 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"439 -10 OFFCURVE",
+"511 52 OFFCURVE",
+"511 83 CURVE SMOOTH",
+"511 91 OFFCURVE",
+"506 96 OFFCURVE",
+"497 96 CURVE SMOOTH",
+"461 96 OFFCURVE",
+"390 33 OFFCURVE",
+"390 1 CURVE SMOOTH",
+"390 -6 OFFCURVE",
+"395 -10 OFFCURVE",
+"403 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"29 -10 OFFCURVE",
+"101 52 OFFCURVE",
+"101 83 CURVE SMOOTH",
+"101 91 OFFCURVE",
+"96 96 OFFCURVE",
+"87 96 CURVE SMOOTH",
+"51 96 OFFCURVE",
+"-20 33 OFFCURVE",
+"-20 1 CURVE SMOOTH",
+"-20 -6 OFFCURVE",
+"-15 -10 OFFCURVE",
+"-7 -10 CURVE SMOOTH"
+);
 }
 );
+width = 611;
+}
+);
+leftMetricsKey = period;
+rightMetricsKey = period;
 unicode = 2026;
 },
 {
